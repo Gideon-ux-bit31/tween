@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toddlers application form</title>
+            <link rel="icon" type="image/png" href="images/tt (2).png">        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <header23>
+        <div class="contact-info">
+            <p1>0393 193465 | (+256) 0752 525503 | <a href="mailto:toddlershavenkindergarten1@gmail.com">toddlershavenkindergarten1@gmail.com</a></p1>
+        </div>
+    </header23>
+
+<body>
+    <div class="form-container">
+
+        <form>
+            <label for="firstName">Student First Name:</label>
+            <input type="text" id="firstName" name="Student" required>
+    <br>
+            <label for="lastName">Student Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+    <br>
+            <label for="dob">Student Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+    <br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+    <br>
+            <label for="formerSchool">Learner's Former School:</label>
+            <input type="text" id="formerSchool" name="formerSchool" required>
+    <br>
+            <label for="classApplied">Class Applied For:</label>
+            <select id="classApplied" name="classApplied" required>
+                <option value="">Select Class</option>
+                <option value="nursery">nursery</option>
+                <option value="P1">P1</option>
+                <option value="P2">P2</option>
+                <option value="P3">P3</option>
+                <option value="p4">p4</option>
+                </select>
+    
+    <br>
+            <label for="healthChallenges">Any health challenges your child could have that the school should know about?</label>
+            <textarea id="healthChallenges" name="healthChallenges" rows="4"></textarea>
+    
+            <label for="parentName">Parent's Name:</label>
+            <input type="text" id="parentName" name="parentName" required>
+    <br>
+            <label for="parentEmail">Parent's Email:</label>
+            <input type="email" id="parentEmail" name="parentEmail" required>
+    <br>
+            <label for="parentNIN">Parent's NIN:</label>
+            <input type="text" id="parentNIN" name="parentNIN" required>
+    <br>
+            <label for="relationship">What is your relationship with the learner?</label>
+            <div>
+                <input type="radio" id="father" name="relationship" value="father" required>
+                <label for="father">Father</label><br>
+                <input type="radio" id="mother" name="relationship" value="mother">
+                <label for="mother">Mother</label><br>
+                <input type="radio" id="other" name="relationship" value="other">
+                <label for="other">Other</label>
+            </div>
+    
+            <label for="phoneNumber">Parent's Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+    <br>
+            <label for="howHeard">How did you get to know about Toddlers and Tweens' Haven ?</label>
+            <div>
+                <input type="checkbox" id="recommendation" name="howHeard" value="recommendation">
+                <label for="recommendation">Recommendation from a parent/friend of the school</label>
+                <input type="checkbox" id="employee" name="howHeard" value="employee">
+                <label for="employee">Recommendation from an employee of the school</label>
+                <input type="checkbox" id="currentParent" name="howHeard" value="currentParent">
+                <label for="currentParent">Current parent</label>
+                <input type="checkbox" id="socialMedia" name="howHeard" value="socialMedia">
+                <label for="socialMedia">Social Media (Facebook, WhatsApp, X, Instagram)</label>
+                <input type="checkbox" id="website" name="howHeard" value="website">
+                <label for="website">The school website</label>
+                <input type="checkbox" id="googleAds" name="howHeard" value="googleAds">
+                <label for="googleAds">Google Ads</label>
+                <input type="checkbox" id="radioTV" name="howHeard" value="radioTV">
+                <label for="radioTV">Radio/TV</label>
+                <input type="checkbox" id="otherHeard" name="howHeard" value="otherHeard">
+                <label for="otherHeard">Other</label>
+            </div>
+    
+            <label for="whatDraws">What draws you to Toddlers and Tweens' Haven?</label>
+            <textarea id="whatDraws" name="whatDraws" rows="4"></textarea>
+    
+            <label for="educationKind">What kind of education would you like Toddlers to provide to your child?</label>
+            <textarea id="educationKind" name="educationKind" rows="4"></textarea>
+    
+            <label for="childKind">What kind of child would you want to see after the Toddelers and Tweens' Haven experience?</label>
+            <textarea id="childKind" name="childKind" rows="4"></textarea>
+    
+            <label for="previousChildren">Have you had any children in our school? (If yes, please give the name and years when they were here)</label>
+            <textarea id="previousChildren" name="previousChildren" rows="4"></textarea>
+    
+            <label for="birthCertificate">Child's Birth Certificate</label>
+            <input type="file" id="birthCertificate" name="birthCertificate" required>
+    
+            <label for="reportCard">Report Card from the previous term</label>
+            <input type="file" id="reportCard" name="reportCard">
+        <br>
+        <BR>
+    <br>
+            <label for="consent">Consent*</label>
+            <div>
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I give permission and consent for the photograph or video of my child to be published on school materials such as fliers, brochures, posters, magazines and school social media platforms. I am aware and acknowledge that the ownership of such material will be retained by the school</label>
+            </div>
+    <br>
+            <input type="submit" value="Submit application">
+        </form>
+        
+</div>
+
+    
+    
+             <!-----------------------------------footer------------------------>
+           
+             <footer class="footer">
+        
+                <div class="footer-column">
+                  <h3>Contact Us</h3>
+                  <p1>Let's stay connected</p1><br>
+                  <br><p1><a href="tel:0393 193465">0393 193465</a></p1><br>
+                  <p1><a href="tel:_+256752 525503">(+256) 0752 525503</a></p1><br>
+                  <p1><a href="tel:+256704 560780">(+256) 0704 560780</a></p>
+                  <a href="mailto:toddlershavenkindergarten1@gmail.com">toddlershavenkindergarten1@gmail.com</a>
+                </div>
+              
+                <div class="footer-column">
+                  <h3>Connect with us on social media</h3>
+                  <p1>VJinja Road, Mukono, Kampala.<br>P.O.Box 7490, Kampala, Uganda.</p1>
+                  <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=100087004612577" target="_blank">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+                </div>
+              
+                <div class="footer-column">
+                  <h3>About Us</h3>
+                  <p1> We are located along Jinja Road, Mukono, Kampala.<br>P.O.Box 7490, Kampala, Uganda.</p>
+                  <p1>&copy; 2024 Toddlers Tweens | All rights reserved <span class="heart">❤️</span> by <a href="#">SGR</a></p1>
+                </div>
+                <div class="footer-column">
+                    <h3>Useful information</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About us.html">About us</a></li>
+                                <li><a href="Our team.html">Our Team</a></li>
+                        
+                        
+                       
+                        <li><a href="Admission.html">Admission</a> </li>
+                                <li><a href="fees.html">fees</a></li>
+                            
+                       
+                            
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="app.html">apply</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                    </ul>
+                  </div>
+              </footer>
+                                
+        
+        <!-----------------------------javascript for Toggle menu---------------------->
+        <script src="javascript.js"></script>
+        
+
+</body>
+</html>

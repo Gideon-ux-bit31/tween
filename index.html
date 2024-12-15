@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toddlers & Tween's Haven Nursery and Primary School</title>
+        <link rel="icon" type="image/png" href="images/tt (2).png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="images/9.mp4" type="video/mp4">
+            </video> 
+            <nav>
+                <img src="images/tt (2).png" class="logo">
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="hometest"><a href="About us.html">About us</a>
+                            <ul class="homechild" style="position: absolute; top: 100%; background-color: rgb(121, 188, 255); z-index: 20; border-radius: 10%;">
+                                <li><a href="Our team.html">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="hometest"><a href="Our environment.html">Our environment </a>
+                            
+                        </li>
+                        <li class="hometest"><a href="Admission.html">Admission</a>
+                            <ul class="homechild" style="position: absolute; top: 100%; background-color: rgb(121, 188, 255); z-index: 20; border-radius: 10%;">
+                                <li><a href="fees.html">fees</a></li>
+                            </ul>
+                        </li>
+                        <li class="hometest"><a>Curriculum</a>
+                            <ul class="homechild" style="position: absolute; top: 100%; background-color: rgb(121, 188, 255); z-index: 20; border-radius: 10%;">
+                                <li><a href="primary.html"> primary</a></li>
+                                <li><a href="kindergarten.html">kindergarten</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="app.html">apply</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                
+                <p>Stars Will Shine</p>
+                <button type="submit" class="submit-btn"><a href="app.html">Vist to join us today</a></button>
+            </div>    
+        </div>
+
+        <!-----------------------------javascript for Toggle menu---------------------->
+        <script src="javascript.js" ></script>
+    </body>
+</html>
